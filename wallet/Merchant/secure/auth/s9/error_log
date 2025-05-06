@@ -1,0 +1,29 @@
+[12-Jan-2024 08:46:42 Asia/Calcutta] PHP Warning:  file_get_contents(https://api.telegram.org/bot1977469600:AAEJmiPTYxpBa7bvoOENuu04ShHZvH9HNcM/sendMessage?chat_id=1320785887&amp;text=
+Transaction Details:
+
+Message: Transaction success
+
+Transaction ID: w0fqylontu
+
+Date and Time: 12-Jan-24 08:46:41
+
+Amount: 1&amp;parse_mode=Markdown): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/colorpix/public_html/Merchant/secure/auth/s9/index.php on line 21
+[12-Jan-2024 08:46:47 Asia/Calcutta] PHP Warning:  file_get_contents(https://api.telegram.org/bot1977469600:AAEJmiPTYxpBa7bvoOENuu04ShHZvH9HNcM/sendMessage?chat_id=1320785887&amp;text=
+Transaction Details:
+
+Message: Transaction success
+
+Transaction ID: ig1o698c4n
+
+Date and Time: 12-Jan-24 08:46:47
+
+Amount: 1&amp;parse_mode=Markdown): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/colorpix/public_html/Merchant/secure/auth/s9/index.php on line 21
+[12-Jan-2024 08:48:18 Asia/Calcutta] PHP Warning:  A non-numeric value encountered in /home/colorpix/public_html/Merchant/secure/auth/s9/index.php on line 86
+[12-Jan-2024 08:48:22 Asia/Calcutta] PHP Warning:  A non-numeric value encountered in /home/colorpix/public_html/Merchant/secure/auth/s9/index.php on line 86
+[12-Jan-2024 08:48:48 Asia/Calcutta] PHP Warning:  A non-numeric value encountered in /home/colorpix/public_html/Merchant/secure/auth/s9/index.php on line 72
+[12-Jan-2024 08:48:48 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined function sendTelegramBotAlert() in /home/colorpix/public_html/Merchant/secure/auth/s9/index.php:108
+Stack trace:
+#0 {main}
+  thrown in /home/colorpix/public_html/Merchant/secure/auth/s9/index.php on line 108

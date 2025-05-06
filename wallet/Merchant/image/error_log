@@ -1,0 +1,45 @@
+[04-Jan-2024 06:23:58 UTC] PHP Fatal error:  Uncaught Error: Class 'Imagick' not found in /home/colorpix/public_html/Merchant/image/analyze.php:49
+Stack trace:
+#0 /home/colorpix/public_html/Merchant/image/analyze.php(17): analyzeColor('/tmp/phpFz2dH3')
+#1 {main}
+  thrown in /home/colorpix/public_html/Merchant/image/analyze.php on line 49
+[04-Jan-2024 06:25:43 UTC] PHP Fatal error:  Uncaught Error: Class 'Imagick' not found in /home/colorpix/public_html/Merchant/image/analyze.php:49
+Stack trace:
+#0 /home/colorpix/public_html/Merchant/image/analyze.php(17): analyzeColor('/tmp/phpkanR47')
+#1 {main}
+  thrown in /home/colorpix/public_html/Merchant/image/analyze.php on line 49
+[04-Jan-2024 06:29:42 UTC] PHP Fatal error:  Uncaught Error: Class 'Imagick' not found in /home/colorpix/public_html/Merchant/image/analyze.php:48
+Stack trace:
+#0 /home/colorpix/public_html/Merchant/image/analyze.php(18): analyzeColor('/tmp/phpzqmNov')
+#1 {main}
+  thrown in /home/colorpix/public_html/Merchant/image/analyze.php on line 48
+[04-Jan-2024 06:30:49 UTC] PHP Fatal error:  Uncaught Error: Class 'Imagick' not found in /home/colorpix/public_html/Merchant/image/analyze.php:51
+Stack trace:
+#0 /home/colorpix/public_html/Merchant/image/analyze.php(25): analyzeColor('uploads/success...')
+#1 /home/colorpix/public_html/Merchant/image/analyze.php(68): analyzeImage(Array)
+#2 {main}
+  thrown in /home/colorpix/public_html/Merchant/image/analyze.php on line 51
+[04-Jan-2024 06:31:13 UTC] PHP Fatal error:  Uncaught Error: Class 'Imagick' not found in /home/colorpix/public_html/Merchant/image/analyze.php:51
+Stack trace:
+#0 /home/colorpix/public_html/Merchant/image/analyze.php(25): analyzeColor('uploads/allin1....')
+#1 /home/colorpix/public_html/Merchant/image/analyze.php(68): analyzeImage(Array)
+#2 {main}
+  thrown in /home/colorpix/public_html/Merchant/image/analyze.php on line 51
+[04-Jan-2024 06:32:17 UTC] PHP Fatal error:  Uncaught Error: Class 'Imagick' not found in /home/colorpix/public_html/Merchant/image/analyze.php:56
+Stack trace:
+#0 /home/colorpix/public_html/Merchant/image/analyze.php(25): analyzeColor('uploads/Screens...')
+#1 /home/colorpix/public_html/Merchant/image/analyze.php(73): analyzeImage(Array)
+#2 {main}
+  thrown in /home/colorpix/public_html/Merchant/image/analyze.php on line 56
+[04-Jan-2024 06:34:05 UTC] PHP Fatal error:  Uncaught Error: Class 'Imagick' not found in /home/colorpix/public_html/Merchant/image/analyze.php:48
+Stack trace:
+#0 /home/colorpix/public_html/Merchant/image/analyze.php(25): analyzeColor('uploads/360_F_3...')
+#1 /home/colorpix/public_html/Merchant/image/analyze.php(65): analyzeImage(Array)
+#2 {main}
+  thrown in /home/colorpix/public_html/Merchant/image/analyze.php on line 48
+[04-Jan-2024 06:34:39 UTC] PHP Fatal error:  Uncaught Error: Class 'Imagick' not found in /home/colorpix/public_html/Merchant/image/analyze.php:48
+Stack trace:
+#0 /home/colorpix/public_html/Merchant/image/analyze.php(25): analyzeColor('uploads/hi.jpg')
+#1 /home/colorpix/public_html/Merchant/image/analyze.php(65): analyzeImage(Array)
+#2 {main}
+  thrown in /home/colorpix/public_html/Merchant/image/analyze.php on line 48

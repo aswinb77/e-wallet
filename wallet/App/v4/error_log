@@ -1,0 +1,91 @@
+[25-Dec-2023 02:28:28 UTC] PHP Warning:  include(../bal.php): failed to open stream: No such file or directory in /home/colorpix/public_html/App/v4/index.php on line 2
+[25-Dec-2023 02:28:28 UTC] PHP Warning:  include(../bal.php): failed to open stream: No such file or directory in /home/colorpix/public_html/App/v4/index.php on line 2
+[25-Dec-2023 02:28:28 UTC] PHP Warning:  include(): Failed opening '../bal.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/colorpix/public_html/App/v4/index.php on line 2
+[25-Dec-2023 02:28:28 UTC] PHP Notice:  Undefined variable: conn in /home/colorpix/public_html/App/v4/index.php on line 18
+[25-Dec-2023 02:28:28 UTC] PHP Warning:  mysqli_prepare() expects parameter 1 to be mysqli, null given in /home/colorpix/public_html/App/v4/index.php on line 18
+[25-Dec-2023 02:28:28 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, null given in /home/colorpix/public_html/App/v4/index.php on line 20
+[25-Dec-2023 02:28:28 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, null given in /home/colorpix/public_html/App/v4/index.php on line 22
+[25-Dec-2023 02:28:28 UTC] PHP Notice:  Undefined variable: conn in /home/colorpix/public_html/App/v4/index.php on line 33
+[25-Dec-2023 02:28:28 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/colorpix/public_html/App/v4/index.php on line 33
+[25-Dec-2023 02:28:28 UTC] Error: 
+[25-Dec-2023 02:28:28 UTC] PHP Warning:  mysqli_stmt_close() expects parameter 1 to be mysqli_stmt, null given in /home/colorpix/public_html/App/v4/index.php on line 38
+[25-Dec-2023 02:28:28 UTC] PHP Notice:  Undefined variable: stmt_balance in /home/colorpix/public_html/App/v4/index.php on line 39
+[25-Dec-2023 02:28:28 UTC] PHP Warning:  mysqli_stmt_close() expects parameter 1 to be mysqli_stmt, null given in /home/colorpix/public_html/App/v4/index.php on line 39
+[25-Dec-2023 02:28:39 UTC] PHP Warning:  include(../bal.php): failed to open stream: No such file or directory in /home/colorpix/public_html/App/v4/index.php on line 2
+[25-Dec-2023 02:28:39 UTC] PHP Warning:  include(../bal.php): failed to open stream: No such file or directory in /home/colorpix/public_html/App/v4/index.php on line 2
+[25-Dec-2023 02:28:39 UTC] PHP Warning:  include(): Failed opening '../bal.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/colorpix/public_html/App/v4/index.php on line 2
+[25-Dec-2023 02:28:39 UTC] PHP Notice:  Undefined variable: conn in /home/colorpix/public_html/App/v4/index.php on line 18
+[25-Dec-2023 02:28:39 UTC] PHP Warning:  mysqli_prepare() expects parameter 1 to be mysqli, null given in /home/colorpix/public_html/App/v4/index.php on line 18
+[25-Dec-2023 02:28:39 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, null given in /home/colorpix/public_html/App/v4/index.php on line 20
+[25-Dec-2023 02:28:39 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, null given in /home/colorpix/public_html/App/v4/index.php on line 22
+[25-Dec-2023 02:28:39 UTC] PHP Notice:  Undefined variable: conn in /home/colorpix/public_html/App/v4/index.php on line 33
+[25-Dec-2023 02:28:39 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/colorpix/public_html/App/v4/index.php on line 33
+[25-Dec-2023 02:28:39 UTC] Error: 
+[25-Dec-2023 02:28:39 UTC] PHP Warning:  mysqli_stmt_close() expects parameter 1 to be mysqli_stmt, null given in /home/colorpix/public_html/App/v4/index.php on line 38
+[25-Dec-2023 02:28:39 UTC] PHP Notice:  Undefined variable: stmt_balance in /home/colorpix/public_html/App/v4/index.php on line 39
+[25-Dec-2023 02:28:39 UTC] PHP Warning:  mysqli_stmt_close() expects parameter 1 to be mysqli_stmt, null given in /home/colorpix/public_html/App/v4/index.php on line 39
+[25-Dec-2023 02:29:01 UTC] PHP Warning:  include(../bal.php): failed to open stream: No such file or directory in /home/colorpix/public_html/App/v4/index.php on line 2
+[25-Dec-2023 02:29:01 UTC] PHP Warning:  include(../bal.php): failed to open stream: No such file or directory in /home/colorpix/public_html/App/v4/index.php on line 2
+[25-Dec-2023 02:29:01 UTC] PHP Warning:  include(): Failed opening '../bal.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/colorpix/public_html/App/v4/index.php on line 2
+[25-Dec-2023 02:29:01 UTC] PHP Notice:  Undefined variable: conn in /home/colorpix/public_html/App/v4/index.php on line 18
+[25-Dec-2023 02:29:01 UTC] PHP Warning:  mysqli_prepare() expects parameter 1 to be mysqli, null given in /home/colorpix/public_html/App/v4/index.php on line 18
+[25-Dec-2023 02:29:01 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, null given in /home/colorpix/public_html/App/v4/index.php on line 20
+[25-Dec-2023 02:29:01 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, null given in /home/colorpix/public_html/App/v4/index.php on line 22
+[25-Dec-2023 02:29:01 UTC] PHP Notice:  Undefined variable: conn in /home/colorpix/public_html/App/v4/index.php on line 33
+[25-Dec-2023 02:29:01 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/colorpix/public_html/App/v4/index.php on line 33
+[25-Dec-2023 02:29:01 UTC] Error: 
+[25-Dec-2023 02:29:01 UTC] PHP Warning:  mysqli_stmt_close() expects parameter 1 to be mysqli_stmt, null given in /home/colorpix/public_html/App/v4/index.php on line 38
+[25-Dec-2023 02:29:01 UTC] PHP Notice:  Undefined variable: stmt_balance in /home/colorpix/public_html/App/v4/index.php on line 39
+[25-Dec-2023 02:29:01 UTC] PHP Warning:  mysqli_stmt_close() expects parameter 1 to be mysqli_stmt, null given in /home/colorpix/public_html/App/v4/index.php on line 39
+[25-Dec-2023 02:32:29 UTC] PHP Warning:  include(../bal.php): failed to open stream: No such file or directory in /home/colorpix/public_html/App/v4/index.php on line 7
+[25-Dec-2023 02:32:29 UTC] PHP Warning:  include(../bal.php): failed to open stream: No such file or directory in /home/colorpix/public_html/App/v4/index.php on line 7
+[25-Dec-2023 02:32:29 UTC] PHP Warning:  include(): Failed opening '../bal.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/colorpix/public_html/App/v4/index.php on line 7
+[25-Dec-2023 02:32:29 UTC] PHP Notice:  Undefined variable: conn in /home/colorpix/public_html/App/v4/index.php on line 22
+[25-Dec-2023 02:32:29 UTC] PHP Warning:  mysqli_prepare() expects parameter 1 to be mysqli, null given in /home/colorpix/public_html/App/v4/index.php on line 22
+[25-Dec-2023 02:32:29 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, null given in /home/colorpix/public_html/App/v4/index.php on line 24
+[25-Dec-2023 02:32:29 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, null given in /home/colorpix/public_html/App/v4/index.php on line 26
+[25-Dec-2023 02:32:29 UTC] PHP Notice:  Undefined variable: conn in /home/colorpix/public_html/App/v4/index.php on line 36
+[25-Dec-2023 02:32:29 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/colorpix/public_html/App/v4/index.php on line 36
+[25-Dec-2023 02:32:29 UTC] Error: 
+[25-Dec-2023 02:32:29 UTC] PHP Warning:  mysqli_stmt_close() expects parameter 1 to be mysqli_stmt, null given in /home/colorpix/public_html/App/v4/index.php on line 41
+[25-Dec-2023 02:32:29 UTC] PHP Notice:  Undefined variable: stmt_balance in /home/colorpix/public_html/App/v4/index.php on line 42
+[25-Dec-2023 02:32:29 UTC] PHP Warning:  mysqli_stmt_close() expects parameter 1 to be mysqli_stmt, null given in /home/colorpix/public_html/App/v4/index.php on line 42
+[25-Dec-2023 02:33:09 UTC] PHP Warning:  include(../bal.php): failed to open stream: No such file or directory in /home/colorpix/public_html/App/v4/index.php on line 7
+[25-Dec-2023 02:33:09 UTC] PHP Warning:  include(../bal.php): failed to open stream: No such file or directory in /home/colorpix/public_html/App/v4/index.php on line 7
+[25-Dec-2023 02:33:09 UTC] PHP Warning:  include(): Failed opening '../bal.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/colorpix/public_html/App/v4/index.php on line 7
+[25-Dec-2023 02:33:09 UTC] PHP Notice:  Undefined variable: conn in /home/colorpix/public_html/App/v4/index.php on line 22
+[25-Dec-2023 02:33:09 UTC] PHP Warning:  mysqli_prepare() expects parameter 1 to be mysqli, null given in /home/colorpix/public_html/App/v4/index.php on line 22
+[25-Dec-2023 02:33:09 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, null given in /home/colorpix/public_html/App/v4/index.php on line 24
+[25-Dec-2023 02:33:09 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, null given in /home/colorpix/public_html/App/v4/index.php on line 26
+[25-Dec-2023 02:33:09 UTC] PHP Notice:  Undefined variable: conn in /home/colorpix/public_html/App/v4/index.php on line 36
+[25-Dec-2023 02:33:09 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/colorpix/public_html/App/v4/index.php on line 36
+[25-Dec-2023 02:33:09 UTC] Error: 
+[25-Dec-2023 02:33:09 UTC] PHP Warning:  mysqli_stmt_close() expects parameter 1 to be mysqli_stmt, null given in /home/colorpix/public_html/App/v4/index.php on line 41
+[25-Dec-2023 02:33:09 UTC] PHP Notice:  Undefined variable: stmt_balance in /home/colorpix/public_html/App/v4/index.php on line 42
+[25-Dec-2023 02:33:09 UTC] PHP Warning:  mysqli_stmt_close() expects parameter 1 to be mysqli_stmt, null given in /home/colorpix/public_html/App/v4/index.php on line 42
+[25-Dec-2023 02:33:23 UTC] PHP Warning:  include(../bal.php): failed to open stream: No such file or directory in /home/colorpix/public_html/App/v4/index.php on line 7
+[25-Dec-2023 02:33:23 UTC] PHP Warning:  include(../bal.php): failed to open stream: No such file or directory in /home/colorpix/public_html/App/v4/index.php on line 7
+[25-Dec-2023 02:33:23 UTC] PHP Warning:  include(): Failed opening '../bal.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/colorpix/public_html/App/v4/index.php on line 7
+[25-Dec-2023 02:33:23 UTC] PHP Notice:  Undefined variable: conn in /home/colorpix/public_html/App/v4/index.php on line 22
+[25-Dec-2023 02:33:23 UTC] PHP Warning:  mysqli_prepare() expects parameter 1 to be mysqli, null given in /home/colorpix/public_html/App/v4/index.php on line 22
+[25-Dec-2023 02:33:23 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, null given in /home/colorpix/public_html/App/v4/index.php on line 24
+[25-Dec-2023 02:33:23 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, null given in /home/colorpix/public_html/App/v4/index.php on line 26
+[25-Dec-2023 02:33:23 UTC] PHP Notice:  Undefined variable: conn in /home/colorpix/public_html/App/v4/index.php on line 36
+[25-Dec-2023 02:33:23 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/colorpix/public_html/App/v4/index.php on line 36
+[25-Dec-2023 02:33:23 UTC] Error: 
+[25-Dec-2023 02:33:23 UTC] PHP Warning:  mysqli_stmt_close() expects parameter 1 to be mysqli_stmt, null given in /home/colorpix/public_html/App/v4/index.php on line 41
+[25-Dec-2023 02:33:23 UTC] PHP Notice:  Undefined variable: stmt_balance in /home/colorpix/public_html/App/v4/index.php on line 42
+[25-Dec-2023 02:33:23 UTC] PHP Warning:  mysqli_stmt_close() expects parameter 1 to be mysqli_stmt, null given in /home/colorpix/public_html/App/v4/index.php on line 42
+[25-Dec-2023 02:33:55 UTC] PHP Warning:  include(.../bal.php): failed to open stream: No such file or directory in /home/colorpix/public_html/App/v4/index.php on line 7
+[25-Dec-2023 02:33:55 UTC] PHP Warning:  include(.../bal.php): failed to open stream: No such file or directory in /home/colorpix/public_html/App/v4/index.php on line 7
+[25-Dec-2023 02:33:55 UTC] PHP Warning:  include(): Failed opening '.../bal.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/colorpix/public_html/App/v4/index.php on line 7
+[25-Dec-2023 02:33:55 UTC] PHP Notice:  Undefined variable: conn in /home/colorpix/public_html/App/v4/index.php on line 22
+[25-Dec-2023 02:33:55 UTC] PHP Warning:  mysqli_prepare() expects parameter 1 to be mysqli, null given in /home/colorpix/public_html/App/v4/index.php on line 22
+[25-Dec-2023 02:33:55 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, null given in /home/colorpix/public_html/App/v4/index.php on line 24
+[25-Dec-2023 02:33:55 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, null given in /home/colorpix/public_html/App/v4/index.php on line 26
+[25-Dec-2023 02:33:55 UTC] PHP Notice:  Undefined variable: conn in /home/colorpix/public_html/App/v4/index.php on line 36
+[25-Dec-2023 02:33:55 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/colorpix/public_html/App/v4/index.php on line 36
+[25-Dec-2023 02:33:55 UTC] Error: 
+[25-Dec-2023 02:33:55 UTC] PHP Warning:  mysqli_stmt_close() expects parameter 1 to be mysqli_stmt, null given in /home/colorpix/public_html/App/v4/index.php on line 41
+[25-Dec-2023 02:33:55 UTC] PHP Notice:  Undefined variable: stmt_balance in /home/colorpix/public_html/App/v4/index.php on line 42
+[25-Dec-2023 02:33:55 UTC] PHP Warning:  mysqli_stmt_close() expects parameter 1 to be mysqli_stmt, null given in /home/colorpix/public_html/App/v4/index.php on line 42

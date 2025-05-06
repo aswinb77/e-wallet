@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/animations/scale-extreme.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet" />
+    <link href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" rel="stylesheet" />
+    <link href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" rel="stylesheet" crossorigin="anonymous" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Poppins:wght@200;300;400;500;600;700;800&&family=Rubik:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .hidden {
+            display: none;
+        }
+
+        #alert-container {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            width: 300px;
+        }
+
+        #alert {
+            padding: 10px;
+            margin-bottom: 10px;
+            text-align: center;
+            color: white;
+            border-radius: 5px;
+        }
+
+        #alert.success {
+            background-color: #4CAF50; 
+        }
+
+        #alert.error {
+            background-color: #FF0000; 
+        }
+        
+        #number:focus {
+    transform: scale(1.06);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  #password:focus {
+    transform: scale(1.06);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  #email:focus {
+    transform: scale(1.06);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  #name:focus {
+    transform: scale(1.06);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  #upi:focus {
+    transform: scale(1.06);
+    transition: transform 0.3s ease-in-out;
+  }
+    </style>
+</head>
+<body class="bg-gray-100 font-sans" style="font-family : 'Rubik', sans-serif">
+    <div class="p-4">
+        <div id="register-container">
+            <h2 class="text-3xl font-semibold">Register</h2>
+            <p class="text-sm">Discover the Better Now ! </p>
+            <br>
+            <div id="alert-container" class="hidden">
+                <div id="alert" class="p-4 mb-4 text-sm rounded-lg">
+                    <p id="alert-message"></p>
+                </div>
+            </div>
+            <center><script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+<dotlottie-player src="https://lottie.host/7b4d7b2a-4bf3-4425-97de-89ff25a6d74b/AoM359VhAA.json" background="transparent" speed="1" style="width: 300px; height: 300px" direction="1" mode="normal" loop autoplay></dotlottie-player></center>
+            <div class="p-2">
+                <form class="max-w-md mx-auto" id="register-form">
+                    <label for="name" class="block mb-2 text-sm font-medium text-gray-900">Name</label>
+                    <input type="text" id="name" name="name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 rounded" placeholder="John Doe" required>
+                    <br>
+                    <label for="number" class="block mb-2 text-sm font-medium text-gray-900">Phone Number</label>
+                    <input type="number" id="number" name="number" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 rounded" placeholder="123456789" required>
+                    <br>
+                    <label for="password" class="block mb-2 text-sm font-medium text-gray-900">Password</label>
+                    <input type="password" id="password" name="password" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 rounded" placeholder="******" required>
+                    <br>
+                    <label for="email" class="block mb-2 text-sm font-medium text-gray-900">Email</label>
+                    <input type="email" id="email" name="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 rounded" placeholder="john@example.com" required>
+                    <br>
+                    <label for="upi" class="block mb-2 text-sm font-medium text-gray-900">UPI</label>
+                    <input type="text" id="upi" name="upi" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 rounded" placeholder="john@exampleupi" required>
+                    <br>
+                    
+                    <button id="loginButton" type="button" class="text-white bg-blue-400 hover:bg-blue-500 focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm w-full px-5 py-2.5 me-2 mb-2" onclick="handleRegister()">R E G I S T E R</button>
+                </form>
+                <br>
+                <center><span class="text-center bg-red-200 w-full text-red-700 rounded-lg px-4 py-4">Have A Account ? <a href="login.html">SignIn</a></span></center>
+            </div>
+        </div>
+        <script>
+           function handleRegister() {
+                var name = document.getElementById('name').value;
+                var number = document.getElementById('number').value;
+                var password = document.getElementById('password').value;
+                var email = document.getElementById('email').value;
+                var upi = document.getElementById('upi').value;
+                
+                const loginButton = document.getElementById('loginButton');
+                loginButton.innerText = 'Subitting...';
+                loginButton.disabled = true;
+        
+                if (!name || !number || !password || !email || !upi) {
+                    showAlert('Please fill in all the required fields', 'error',0);
+                    loginButton.innerText = 'Fill Up feilds';
+                    return; 
+                    }
+                
+                var xhr = new XMLHttpRequest();
+                xhr.onreadystatechange = function() {
+                    if (xhr.readyState == 4) {
+                        if (xhr.status == 200) {
+                            var response = JSON.parse(xhr.responseText);
+                            if (response.status === 'success') {
+                                showAlert('Registration successful! Redirecting to login.', 'success', 3000);
+                                loginButton.innerText = 'Success !';
+                            } else {
+                                showAlert('Error: ' + response.message, 'error', 0);
+                                loginButton.innerText = 'Failed !';
+                            }
+                        }
+                    }
+                };
+                xhr.open('POST', './Ess/register.php', true);
+                xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+                xhr.send('name=' + name + '&number=' + number + '&password=' + password + '&email=' + email + '&upi=' + upi);
+            }
+
+            function showAlert(message, type, delay) {
+                var alertContainer = document.getElementById('alert-container');
+                var alertMessage = document.getElementById('alert-message');
+                var alertElement = document.getElementById('alert');
+
+                alertMessage.innerHTML = message;
+                if (type === 'success') {
+                    //alertContainer.style.backgroundColor = '#4CAF50'; 
+                    alertElement.classList.add('bg-green-500');
+                } else if (type === 'error') {
+                    //alertContainer.style.backgroundColor = '#FF0000'; 
+                    alertElement.classList.add('bg-red-500');
+                }
+
+                alertContainer.classList.remove('hidden');
+
+                if (delay > 0) {
+                    setTimeout(function() {
+                        alertContainer.classList.add('hidden');
+                        window.location.href = 'login.html';
+                    }, delay);
+                }
+            }
+        </script>
+    </body>
+</html>

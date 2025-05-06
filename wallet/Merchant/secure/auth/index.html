@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biometric Authentication</title>
+</head>
+<body>
+
+<div id="auth-container">
+  <button id="biometric-btn">Authenticate with Biometrics</button>
+</div>
+
+<script>
+  document.getElementById('biometric-btn').addEventListener('click', function() {
+    // Simulate biometric authentication, in a real scenario, use the WebAuthn API
+    var fingerprintData = "simulated_fingerprint_data";
+
+    // Send fingerprint data to the server for verification
+    fetch('verify_biometric.php', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({ fingerprintData: fingerprintData })
+    }).then(response => {
+      // Handle the server response
+      console.log(response);
+    });
+  });
+</script>
+
+</body>
+</html>
